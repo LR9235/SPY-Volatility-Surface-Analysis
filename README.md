@@ -2,11 +2,11 @@
 
 A comprehensive quantitative analysis of SPY (S&P 500 ETF) options volatility surface using the Black-Scholes model and numerical methods.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project implements a complete volatility surface analysis pipeline, from data extraction to interactive 3D visualization. It demonstrates advanced quantitative finance techniques applicable to options pricing, risk management, and trading strategies.
 
-## 🎯 Key Features
+##  Key Features
 
 - **Real-Time Data Extraction**: Automated download of SPY options data via Yahoo Finance API
 - **Black-Scholes Pricing**: Implementation of the classic option pricing model
@@ -15,7 +15,7 @@ This project implements a complete volatility surface analysis pipeline, from da
 - **Interactive 3D Surface**: Plotly-based visualization allowing exploration of the complete volatility structure
 - **Greeks Computation**: Delta, Gamma, Vega, and Theta sensitivities for risk management
 
-## 📈 Main Results
+## Main Results
 
 ### Volatility Smile Evolution
 The analysis reveals that the volatility smile **flattens progressively** as maturity increases, consistent with:
@@ -29,21 +29,21 @@ The analysis reveals that the volatility smile **flattens progressively** as mat
 - **Vega**: Highest for ATM options, crucial for volatility trading
 - **Theta**: Most negative at ATM, representing time decay
 
-## 🛠️ Technologies
+##  Technologies
 
-- **Python 3.x**
+- **Python 3.14**
 - **Data & Computation**: `yfinance`, `pandas`, `numpy`, `scipy`
 - **Visualization**: `matplotlib`, `plotly`
 - **Financial Models**: Black-Scholes, Brent's optimization method
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
-├── Volatility_Professional.ipynb    # Main analysis notebook
-└── README.md                         # Project documentation
+ Volatility_Professional.ipynb    # Main analysis notebook
+ README.md                         # Project documentation
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 ```bash
@@ -55,7 +55,7 @@ pip install yfinance pandas numpy scipy matplotlib plotly jupyter
 jupyter notebook Volatility_Professional.ipynb
 ```
 
-## 📊 Methodology
+##  Methodology
 
 1. **Data Collection**: Extract SPY options data for 3 maturities (30, 60, 90 days)
 2. **Filtering**: Keep only liquid options (volume > 0) within ±10% of ATM
@@ -63,7 +63,7 @@ jupyter notebook Volatility_Professional.ipynb
 4. **Visualization**: Generate volatility smiles and 3D surface
 5. **Greeks Analysis**: Compute and visualize option sensitivities
 
-## 🎓 Applications
+##  Applications
 
 This analysis is directly relevant to:
 - **Options Pricing**: Consistent valuation across all strikes and maturities
@@ -71,23 +71,23 @@ This analysis is directly relevant to:
 - **Trading Strategies**: Volatility arbitrage and skew trading
 - **Market Analysis**: Sentiment extraction from volatility patterns
 
-## 📚 Key Concepts
+##  Key Concepts
 
 - **Volatility Smile**: Pattern where implied volatility varies with strike price
 - **Volatility Surface**: 3D representation of IV across strike and maturity
 - **Greeks**: Option price sensitivities (Delta, Gamma, Vega, Theta)
 - **Brent's Method**: Robust root-finding algorithm for IV calculation
 
-## 👤 Author
+##  Author
 
-**Louisin**  
+**Louison Robert**  
 Master 1 Finance, Université Paris-Saclay
 
-## 📧 Contact
+##  Contact
 
-For questions or collaboration opportunities, feel free to reach out via GitHub.
+[louison-robert@outlook.com]
 
-## 📄 License
+## License
 
 This project is available for educational and professional purposes.
 
